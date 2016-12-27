@@ -1,5 +1,4 @@
-job {
-  name 'FM-Build'
+job('FM-Build') {
   steps {
     batchFile('echo Hello World EO!')
   }
